@@ -2,3 +2,6 @@ streamlit
 openai
 pandas
 python-docx
+chromadb
+pysqlite3-binary
+protobuf ==3.20

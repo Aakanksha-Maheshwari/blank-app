@@ -5,9 +5,10 @@ from streamlit import session_state as state
 lab1_page = st.Page("lab1.py", title="lab1")
 lab2_page = st.Page("lab2.py", title="lab2")
 lab3_page = st.Page("lab3.py", title ="lab3")
+lab4_page = st.Page("lab4.py", title ="lab4")
 
 # Initialize navigation with the pages
-pg = st.navigation([lab1_page,lab2_page,lab3_page])
+pg = st.navigation([lab1_page,lab2_page,lab3_page,lab4_page])
 
 # Set page configuration (optional but helps with page title and icon)
 st.set_page_config(page_title="Lab Manager", page_icon=":memo:")
